@@ -1,13 +1,8 @@
 <!DOCTYPE html>
 <html>
 <head>
-
-    <title>Atividade</title>
-
+    <title> Projeto de programação PHP </title> 
     <meta charset='utf-8'>
-    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
-    <meta name='viewport' content='width=device-width, initial-scale=1'>
-
     <style>
         body, html {
             margin: 0;
@@ -29,12 +24,11 @@
             font-weight: 600;
         }
     </style>
-
 </head>
 <body>
 
     <form method="get">
-        <h1>Positivo, negativo e neutro</h1>
+        <h1>Verificação se o número é positivo, negativo ou neutro.</h1>
         <label>Digite um número</label>
         <input name="number" type="number" required> 
         <button name="res">Calcular Resultado</button>
